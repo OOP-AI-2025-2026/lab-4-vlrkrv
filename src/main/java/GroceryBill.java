@@ -5,8 +5,8 @@ import java.util.List;
 
 public class GroceryBill {
 
-    private final Employee clerk;        // співробітник (касир)
-    private final List<Item> items;      // список товарів у чеку
+    private final Employee clerk;
+    private final List<Item> items;
 
     public GroceryBill(Employee clerk) {
         this.clerk = clerk;

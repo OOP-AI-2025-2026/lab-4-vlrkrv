@@ -1,7 +1,7 @@
 import ua.opnu.java.inheritance.point.Point;
 
 public class Point3D extends Point {
-    private int z; // третя координата
+    private int z;
 
     public Point3D() {
         super(0, 0);

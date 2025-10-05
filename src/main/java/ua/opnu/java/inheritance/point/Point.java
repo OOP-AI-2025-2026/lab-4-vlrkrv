@@ -2,8 +2,8 @@ package ua.opnu.java.inheritance.point;
 
 public class Point {
 
-    public int x; // координата x
-    public int y; // координата y
+    public int x;
+    public int y;
 
     public Point() {
         this(0, 0);

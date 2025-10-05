@@ -50,7 +50,6 @@ public class DiscountBill extends GroceryBill {
         }
         double discounted = getTotal();
         return Math.round((100.0 - (discounted * 100.0) / fullTotal) * 1e13) / 1e13;
-        //return 100.0 - (discounted * 100.0) / fullTotal;
     }
 
     public boolean isRegularCustomer() {

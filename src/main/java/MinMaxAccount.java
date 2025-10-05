@@ -3,8 +3,8 @@ import ua.opnu.java.inheritance.account.Debit;
 import ua.opnu.java.inheritance.account.Startup;
 
 public class MinMaxAccount extends BankingAccount {
-    private int min; // мінімальний зафіксований баланс
-    private int max; // максимальний зафіксований баланс
+    private int min;
+    private int max;
 
     public MinMaxAccount(Startup s) {
         super(s);
